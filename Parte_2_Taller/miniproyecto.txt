@@ -1,0 +1,131 @@
+¿Que miniproyecto escogi?
+
+El miniproyecto que elegi fue un sistema para pedir citas medicas 
+
+¿Que problematica hay que tengo que resolver?
+
+La problematica seria que un hospital o centro medico necesita un sistema para que la gente pueda pedir citas medicas con doctores segun su especialidad y horario disponible (las especialidades solo van a ser 2 que seria cardiologia que seria sobre el corazon y neurologia que seria del sistema nervioso)
+
+¿Que clases identifico en el problema?
+
+las clases que veria en el problema seria:
+
+1.PACIENTE
+2.DOCTORES
+3.CITA
+4.ESPECIALIDAD
+5.ADMINISTRADOR 
+
+¿Que atributos y metodos tendria cada clase?
+
+Cada clase tiene sus atributos y metodos que los identifican del resto y hacen cosas distintas al resto dependiendo del metodo los atributos y metodos que tiene cada uno serian:
+
+1.CLASE PACIENTE 
+
+(ATRIBUTOS)
+
+
+ID_Paciente
+Nombre_1
+Nombre_2
+Apellido_1
+Apellido_2
+Fecha de nacimiento
+Correo 
+Telefono
+
+(METODOS)
+
+
+regitrarse()
+reservarcita()
+cancelarcita()
+
+2.CLASE DOCTOR
+
+(ATRIBUTOS)
+
+
+ID_Doctor
+Nombre_1
+Nombre_2
+Apellido_1
+Apellido_2
+Especialidad
+Horarios Disponible
+
+(METODOS)
+
+
+mostrarhorario()
+confirmarcita()
+atenderpaciente()
+
+3.CLASE CITA
+
+(ATRIBUTOS)
+
+
+ID_Cita
+Fecha
+Hora
+Paciente(Que seria obejeto Paciente)
+Doctor(Que seria objeto Doctor)
+Estado(Si es pendiente o confirmada o cancelada )
+
+(METODOS)
+
+
+confirmar()
+cancelar()
+mostrardetalle()
+
+
+4.CLASE ESPECIALIDAD
+
+(ATRIBUTOS)
+
+
+ID_Especialidad
+Nombre
+Descripcion(breve)
+
+(METODOS)
+
+
+mostrarinfo()
+
+5.CLASE ADMINISTRADOR
+
+(ATRIBUTOS)
+
+
+ID_Admin
+Usuario
+Contraseña
+
+(METODOS)
+
+
+agregardoctor()
+eliminardoctor()
+verreportes()
+
+¿Que relacion existe entre ellas?
+
+Las relaciones pues serian las siguientes de 1 a muchos y de 1 a 1 
+
+1.relacion
+Paciente con cita seria de tipo 1 a muchos por que un paciente puede tener muchas citas en un dia 
+
+2.relacion
+Doctor con cita seria de tipo tambien 1 a muchos por que un doctor puede tener muchas citas en un dia 
+
+3.relacion
+Doctor con especialidad de tipo 1 a 1 cada doctor puede tener una sola especialidad o si es cardiologo o si es neurologo 
+
+4.relacion 
+Administrador con doctor este seria de tipo 1 a muchos un administrador puede controlar o contratar muchos doctores pero esos doctores solo podrian ser contratados por un administrador
+
+
+
