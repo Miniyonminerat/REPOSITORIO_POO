@@ -66,11 +66,6 @@ listaUsuarios (colección de usuarios registrados)
 
 Métodos:
 
-registrarUsuario()
-
-verificarCredenciales()
-
-mostrarUsuarios()
 
 
 ¿Que relacion existe entre ellas?
