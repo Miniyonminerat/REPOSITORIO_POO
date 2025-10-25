@@ -38,6 +38,7 @@ Telefono
 
 
 regitrarse()
+iniciarsesion()
 reservarcita()
 cancelarcita()
 
